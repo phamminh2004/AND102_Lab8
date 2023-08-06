@@ -19,8 +19,6 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 import com.google.android.gms.common.api.ApiException;
 import com.google.android.gms.tasks.Task;
-import com.facebook.FacebookSdk;
-import com.facebook.appevents.AppEventsLogger;
 
 public class MainActivity extends AppCompatActivity {
     Button btn_map, btn_fb, btn_gg;
@@ -65,5 +63,4 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     });
-
 }
